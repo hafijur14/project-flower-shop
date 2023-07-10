@@ -10,7 +10,8 @@
     display: flex;
     align-items: center;
     padding: 50px 50px 0 100px;
-    
+    justify-content: space-around;
+
 }
 
 .banner-title {
@@ -22,21 +23,51 @@
     margin-bottom: 32px;
 
 }
-.banner-description{
-color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-margin-top: 0;
-margin-bottom:32px ;
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 32px;
 
 
 }
-.button-primary{
- border-radius: 8px;
-background: #E55473;
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-padding: 20px 45px;
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 45px;
+    border: none;
+}
+
+
+.sale-up {
+
+  
+    background: rgba(229, 84, 115, 0.05);
+
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    justify-content: space-around;
+
+
+}
+
+span {
+    color: #E55473;
+}
+
+.btn {
+    margin-left: 400px;
+}
+
+.saleup-image {
+
+    height: 700px;
 }
