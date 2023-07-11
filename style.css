@@ -46,7 +46,7 @@
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 700;
     padding: 20px 45px;
     border: none;
@@ -138,7 +138,7 @@
 
 
 .sale-up {
-     border-radius: 8px;
+    border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     align-items: center;
@@ -177,4 +177,67 @@ span {
 
 .instagram-imagesize {
     height: 300px;
+}
+
+.bg-box {
+    background-image: url("images/rectangle9.png");
+    background-size: cover;
+    background-position: center;
+    width: 940px;
+    height: 350px;
+    margin-left: 205px;
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.box-area {
+    padding-top: 100px;
+}
+
+.subscribe-btn {
+    padding-top: 10px;
+}
+
+.input1 {
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.input2 {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 50px;
+    border: none;
+}
+
+.lastpart {
+    background-color: #111010;
+    width: 100%;
+    height: 280px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+span {
+    color: #E55473;
+}
+
+.foot-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.copyright {
+    color: #FFFFFF66;
+    padding-top: 20px;
 }
